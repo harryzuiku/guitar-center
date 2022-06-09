@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout-Payment</title>
+    <link rel="stylesheet" href="style/Checkout-Payment.css">
+</head>
+<body>
+    
+    <!----Header-->
+     <div class="header">
+        <div class="Header-back"> <a href="Checkout-Shipping.html"><img src="images/Header/Back.png" width="40%"></a></div>
+        <a href="Homepage.html" class="logo"><img src="images/Header/Logo.png" width="60%"></a>
+        <div class="header-right">  
+        </div>
+    </div>
+
+<hr>
+    <!----Phone Status-->
+    <div class="Phone-Status">
+        <img src="images/CheckoutPictures/PhonePayment.png">
+    </div>
+
+    <!---Order Summary--->
+    <div class="Phone-OrderSummary">
+        <div class="Phone-OrderSummaryFont">Order Summary</div>
+        <div class="Phone-OrderSummaryBox">
+            <div class="Phone-OrderSummaryBoxLine">
+                <div class="Phone-OrderSummaryBoxLineFont">Subtotal (2 items)</div>
+                <div class="Phone-OrderSummaryBoxLineFont">$ 1298.98</div>
+            </div>
+            <div class="Phone-OrderSummaryBoxLine">
+                <div class="Phone-OrderSummaryBoxLineFont">Shipping</div>
+                <div class="Phone-OrderSummaryBoxLineFont">Free</div>
+            </div>
+
+            <div class="Phone-OrderSummaryBoxTax" style="padding-top: 7%;">
+                <div class="Phone-OrderSummaryBoxLineFont">Estimated Tax</div>
+                <div class="Phone-OrderSummaryBoxLineFont">$10</div>
+
+            </div>
+            
+            <div class="Phone-OrderSummaryBoxTax" style="padding-top: 7%;">
+                <div class="Phone-OrderSummaryBoxLineTotalFont">Order Total</div>
+                <div class="Phone-OrderSummaryBoxLinePriceFont">$120.99</div>
+
+            </div>
+        </div> 
+    </div>
+    <!---Coupon Or Gift Card--->
+    <div class="Phone-Coupon">
+        <div class="Phone-CouponFonts">Coupon Or Gift Card</div>
+        <a href><img src="images/CheckoutPictures/AddCoupon.png"></a>
+        <a href><img src="images/CheckoutPictures/AddGiftedCard.png"></a>
+        
+
+    </div>
+    <!---Payment Methonds --->
+    
+    <div class="Phone-Payment">
+        <div class="Phone-CouponFonts">Payment Methods</div>
+        <div class="Phone-PaymentBox">
+            <div class="Phone-PaymentCard">
+                <a href><img src="images/CheckoutPictures/Visa.png" width="80%"></a>
+                <a href><img src="images/CheckoutPictures/Gear Card.png"width="80%"></a>
+
+            </div>
+            <div class="Phone-PaymentCard">
+                <a href><img src="images/CheckoutPictures/Paypal.png"width="80%"></a>
+                <a href><img src="images/CheckoutPictures/EssentialCard.png"width="80%"></a>
+
+            </div>
+
+            <div class="Phone-PaymentCardFilled">
+                <div class="Phone-PaymentCardInputBox">
+                    <div>Credit Card Number</div>
+                    <div class="Phone-PaymentInput"><input id='credit-card'type="text"  class="search-homepage" style="height:30px ;"></div>
+                </div>
+                <a href=""><img src="images/CheckoutPictures/ScanCredit.png" width="70%"></a>
+
+            </div>
+
+            <div class="Phone-PaymentCardFilled2">
+                <div class="Phone-CardContainer">
+                <div class="Phone-PaymentCardInputBox2">
+                    <div>Expiration</div>
+                    <div class="Phone-PaymentInput2"><input id='exporation-time'  type="text"  class="search-homepage" style="height:30px ;width: 100%;"></div>
+                </div>
+                <div class="Phone-PaymentCardInputBox2">
+                    <div>Date</div>
+                    <div class="Phone-PaymentInput2"><input id='date-time' type="text"  class="search-homepage" style="height:30px ;width: 100%;"></div>
+                </div>
+                </div>
+                <div class="Phone-PaymentCardInputBox2">
+                    <div>CVV</div>
+                    <div class="Phone-PaymentInput2"><input id='cvv-number' type="text"  class="search-homepage" style="height:30px ;width: 100%;"></div>
+                    <a class="What-is-this">What is This?</a>
+                </div>
+               
+
+            </div>
+        </div>
+    </div>
+
+     <!---Billing Address --->
+    <div class="Phone-BillingAdress">
+        <div class="Phone-CouponFonts">Billing Address</div>
+        <div class="Phone-BillingAdressBox">
+            <a href=""><img src="images/CheckoutPictures/Same as Shipping Address.png" width="100%"></a>
+            <a href="" style="padding-left: 5%;"><img src="images/CheckoutPictures/New Address.png"width="95%"></a>
+        </div>
+    </div>
+
+    <!---Continue Button --->
+    <a href="#" id="buy-payment" class="Phone-continueWidth" style="text-decoration: none;">
+        <div class="Phone-Continue">
+            Continue
+        </div>
+    </a>
+    <div id='payment-tips'>The filds have to be completed (Credit Card Number must include Numbers)</div>
+    <!---Web Payment Status--->
+    <div class="Web-Status"><img src="images/CheckoutPictures/PaymentWeb.png"></div>
+    <a href="#" id='web-buy-payment' class="Web-StatusContinue" style="text-decoration: none;">Contunue Checkout</a>
+    <div id='web-payment-tips'>The filds have to be completed (Credit Card Number must include Numbers)</div>
+    <!---Web Payment Method--->
+    <div class="Web-Payment">
+        <div class="Web-PayContainer">
+            <div class="Web-PaymentMethod">
+                <div class="Web-PaymentMethodTitle">Payment Method</div>
+                <div class="Web-PaymentMethodBox">
+                    <div class="Web-paymentInline">
+                        <div class="Inline-fonts">Payment Method:</div>
+                        <div class="Inline-img">
+                        <a href=""><img src="images/CheckoutPictures/BVisa.png" width="40%"></a>
+                        <a href=""><img src="images/CheckoutPictures/BMastercard.png" width="40%"></a>
+                        <a href=""><img src="images/CheckoutPictures/BBluecard.png" width="40%"></a>
+                        </div>
+                    </div>
+                    
+                    <div class="Web-paymentInline">
+                        <div class="Inline-fonts">Card Number:</div>
+                        <input type="text" id="payment-card-number" class="search-homepage" style="height:30px ;width: 80%; ">
+                    </div>
+
+                    <div class="Web-paymentInline">
+                        <div class="Inline-fonts">Expiration Date:</div>
+                        <div class="Inline-displace">
+                        <input type="text" id="payment-expiration" class="search-homepage" style="height:30px ;width: 40%; ">
+                        <input type="text" id="payment-date" class="search-homepage" style="height:30px ;width: 40%; ">
+                        </div>
+                        
+                    </div>
+
+                    <div class="Web-paymentInline">
+                        <div class="Inline-fonts">CVV:</div>
+                        <div class="Inline-displace">
+                        <input type="text" id="payment-cvv" class="search-homepage" style="height:30px ;width: 40%; ">
+                        <div class="Red-whatIsThis">What is this?</div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="Web-PaymentMethod">
+                <div class="Web-PaymentMethodTitle">Billing Address</div>
+                <div class="Web-PaymentMethodBox">
+                    <a href="" style="padding-left: 3%;"><img src="images/CheckoutPictures/Same as Shipping Address.png"width="55%"></a>
+                    <a href="" style="padding-left: 4.6%;padding-top: 3%;"><img src="images/CheckoutPictures/New Address.png" width="50%"></a>
+                </div>
+            </div>
+
+        
+
+
+        </div>
+
+<!---Web Order summary--->
+        <div class="Web-OrderSummary">
+            <div class="Web-OrderBox">
+                <div class="Web-OrderBoxWidth">
+                <div class="Web-OrderBoxTitle">Order Summary</div>
+                </div>
+                <div class="Web-OrderBoxProduct">
+                    <a href=""><img src="images/ProductPicture/Product1.webp" width="100%"></a>
+                    <div class="Web-OrderBoxProductText">
+                        <div class="Web-OrderBoxProductText-Title">Rogue Starter Acoustic Guitar</div>
+                        <div class="Web-OrderBoxProductText-Content">Item#: 1500000321977 </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="Web-OrderBox-Price">
+                    <div class="Web-OrderBox-PriceBlack">Total</div>
+                    <div class="Web-OrderBox-PriceRed">CNY 898.99</div>
+                    
+                </div>
+            </div>
+    
+            <div class="Web-OrderBox" style="margin-top:3%; ;">
+                <div class="Web-OrderBoxWidth">
+                <div class="Web-OrderBoxTitle">Order Summary</div>
+                </div>
+                <div class="Web-OrderBoxProduct">
+                    <a href=""><img src="images/ProductPicture/product2.webp" width="100%"></a>
+                    <div class="Web-OrderBoxProductText">
+                        <div class="Web-OrderBoxProductText-Title">Mitchell MS450 Morden electric Guitar</div>
+                        <div class="Web-OrderBoxProductText-Content">Item#: 1500000321977</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="Web-OrderBox-Price">
+                    <div class="Web-OrderBox-PriceBlack">Total</div>
+                    <div class="Web-OrderBox-PriceRed">CNY 1298.98</div>
+                    
+                </div>
+            </div>
+        <a href="#" id='web-buy-payment2' class="Web-bottomContinue" style="text-decoration: none;">Continue Checkout</a>
+        <div id='web-payment-tips2'>The filds have to be completed (Credit Card Number must include Numbers)</div>
+</div>
+    </div>
+      <!----Web Footer-->
+<div class="Web-CheckoutFooter">
+    <div class="Web-CheckoutFooterFont">Copyright © Guitar Center, Inc. </div>
+    <div class="Web-CheckoutFooterFont">All Rights Reserved.</div>
+    <div class="Web-CheckoutFooterFont">Your Privacy Rights</div>
+    <div>
+        <div class="Web-CheckoutFooterFont">In Supply Chains Act. Purchase Terms & Conditions</div>
+        <div class="Web-CheckoutFooterFont" style="padding-top: 4%;">Terms of use</div>
+    </div>
+    
+
+</div>
+
+<!----Phone Footer-->
+<div class="Phone-CheckoutFooter">
+    <div class="Phone-CheckoutFooter2">
+    <div class="Phone-CheckoutFooterFont">
+        Copyright © Guitar Center, Inc.         
+    </div>
+
+    <div class="Phone-CheckoutFooterFont">
+               All Rights Reserved.
+    </div>
+    </div>
+    <div class="Phone-CheckoutFooterFont">
+        In Supply Chains Act. Purchase Terms & Conditions           Terms of use
+    </div>
+
+
+</div>
+
+<script type="text/javascript" src="Script/Checkout-Payment.js"></script>
+
+  
+
+    
+
+</body>
+</html>

@@ -1,0 +1,221 @@
+body{
+    margin: 0%;
+}
+
+hr{
+    margin: 0%;
+    
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.Phone-FinishedLogo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    
+}
+.Phone-CongratsText{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.Phone-CongratsTextTitle{
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 4vh;
+}
+.Phone-CongratsTextContent{
+    padding-top: 10%;
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    font-size: 1.8vh;
+}
+.Phone-CongratsTextContinue{
+    margin-top: 15%;
+    background-color: #E6E6E6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #F44949;
+    font-size: 2.2vh;
+    font-weight: 600;
+    padding: 3%;
+    border-radius: 30px;
+    width: 60%;
+    text-align: center;
+    border:#707070 1px solid ;
+}
+.Web-CongratsText{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.Web-CongratsTextFont{
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 7vh;
+}
+.Web-CongratsTextFont1{
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 5vh;
+    padding-top: 2%;
+}
+.Web-CongratsGrey{
+    background-color: #E6E6E6;
+    height: 4%;
+    width: 100%;
+    padding: 2%;
+    margin-top: 3%;
+}
+.Web-CongratsTextSmall{
+    margin-top: 5%;
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    font-size: 4vh;
+}
+.Web-ContinueShop{
+    margin-top: 15%;
+    background-color: #E6E6E6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #F44949;
+    font-size: 4vh;
+    font-weight: 600;
+    padding: 1%;
+    border-radius: 40px;
+    width: 20%;
+    text-align: center;
+    border:#707070 1px solid ;
+    text-decoration: none;
+}
+.footerBox{
+    display: flex;
+    background-color:#E6E6E6;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%
+
+}
+
+.footFonts{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #333333;
+    font-weight:50;
+    font-size: 2.7vh;
+
+}
+.footFonts-list{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #333333;
+    font-weight: bolder;
+    font-size: 2.7vh;
+    margin-top: 10%;
+    font-weight: 100;
+}
+
+.footInsideBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto ;
+}
+
+.footInsideBox a{
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.footInsideBox img{
+    margin-top: 13%;
+}
+.img-fluid{
+    width: 80%;
+ }
+ 
+ li{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-decoration: none;
+     color: #333333;
+     margin-left: 20%;
+     font-size: 0.8rem;
+     list-style:none;
+ }
+ 
+ .footer-list{
+    display: inline;
+    margin-top: 10%;
+ }
+/* 手机版*/
+@media screen and (max-width:1058px){
+    .logo{
+        display: none;
+     }
+    hr{
+        display: none;
+    }
+    .footInsideBox{
+        display: grid;
+        grid-template-rows: auto;
+        text-align: center;
+        
+     }
+    .footerBox{
+        display: grid;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        background-color:#E6E6E6;
+        position: relative;
+        margin-top: 30%;
+    
+    }
+    
+    .footInsideBox img{
+        display: none;
+    }
+    
+    .footInsideBox li{
+        display: none;
+    }
+    .Web-CongratsText{
+        display: none;
+    }
+}
+
+
+/* 电脑版*/
+@media screen and (min-width:1058px){
+    .logo{
+        display: block;
+        position: relative;
+        padding-left: 45%;
+        
+     }
+     .header-right{
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    .Phone-FinishedLogo{
+        display: none;
+    }
+    .Phone-CongratsText{
+        display: none;
+    }
+}

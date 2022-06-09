@@ -1,0 +1,180 @@
+body{
+    margin: 0%;
+}
+
+hr{
+    margin: 0%;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-items: start;
+    width: 100%;
+}
+.back-buttom{
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.Header-Shop{
+    padding-left: 2%;
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 3vh;
+}
+.Navigation-Content{
+    display: flex;
+    flex-direction: column;
+
+}
+.Navigation-Content{
+    display: flex;
+    justify-content: start;
+}
+.Navigation-Classify-Left{
+    background-color:#E6E6E6 ;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+
+    width: 40%;
+    text-align: center;
+}
+.Navigation-Classify-LeftFont{
+    margin-left: 40%;
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    font-size: 2.3vh;
+    padding-top: 4%;
+    text-decoration: none;
+}
+.Navigation-Classify-LeftFont1{
+    
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    font-size: 2.3vh;
+    padding-top: 4%;
+    text-decoration: none;
+}
+.Navigation-Classify-LeftRed{
+    color: #F44949;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    font-size: 2.3vh;
+    padding-top: 5%;
+    margin-left: 40%;
+    text-decoration: none;
+}
+.Navigation-Classify-LeftRed1{
+    color: #F44949;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    font-size: 2.3vh;
+    padding-top: 5%;
+    text-decoration: none;
+}
+.Navigation-textCombine{
+    width: 100%;
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.Navigation-textCombine2{
+    width: 100%;
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20%;
+    
+}
+.Navigation-textCombineFont{
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:700;
+    font-size: 2.7vh;
+    text-decoration: none;
+    padding-left: 5%;
+    margin-right: 7%;
+}
+.Navigation-Download{
+    width: 100%;
+    background-color: #E6E6E6;
+    
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: #797979 solid 1pt;
+}
+.Navigation-DownloadFont{
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:700;
+    font-size: 3vh;
+    text-decoration: none;
+}
+
+.Phone-Navigation{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 12%;
+}
+.Phone-Combination{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    
+}
+.Phone-Combination img{
+    padding-right: 3%;
+}
+.Phone-CombinationFont{
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 2.5vh;
+    text-decoration: none;
+}
+.Phone-classify{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E6E6E6;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5%;
+
+
+}
+/* 手机版*/
+@media screen and (max-width:1058px){
+    .Navigation-Content{
+        display: none;
+    }
+    .Header-Shop{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+}
+
+/* 电脑版*/
+@media screen and (min-width:1058px){
+    .Phone-Navigation{
+        display: none;
+    }
+}

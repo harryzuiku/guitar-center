@@ -1,0 +1,566 @@
+body{
+    margin: 0%;
+}
+
+hr{
+    margin: 0%;
+    
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.Header-back{
+    margin-top: 1%;
+    margin-left: 5%;
+}
+.Phone-Status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.Phone-OrderSummary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+    
+
+}
+.Phone-OrderSummaryFont{
+    color:#494B5A ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 2.2vh;
+}
+.Phone-OrderSummaryBox{
+    background-color:#EDEDED ;
+    display: flex;
+    flex-direction: column ;
+    width: 100%;
+    align-items: center;
+    margin-top: 4%;
+    
+    padding: 2%;
+    border-radius: 30px;
+    border: #494B5A solid 1px;
+}
+.Phone-OrderSummaryBoxLine{
+    background-color: #EDEDED;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    padding-top: 3%;
+
+}
+.Phone-OrderSummaryBoxLineFont{
+    color:#494B5A ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    font-size: 1.9vh;
+}
+.Phone-OrderSummaryBoxTax{
+    background-color: #EDEDED;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    padding-top: 3%;
+    height: 100%;
+    align-items: center;
+}
+.Phone-OrderSummaryBoxLineTotalFont{
+    color:#494B5A ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 2.2vh;
+}
+.Phone-OrderSummaryBoxLinePriceFont{
+    color:#F44949 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 2.2vh;
+}
+.Phone-Coupon{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 8%;
+    align-items: center;
+}
+.Phone-CouponFonts{
+    color:#494B5A ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 2.2vh;
+    padding-bottom: 5%;
+}
+.Phone-Coupon a{
+    padding-top: 4%;
+}
+.Phone-Payment{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 10%;
+    border-radius: 30px;
+}
+.Phone-PaymentCard{
+    background-color: #EDEDED;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+   
+}
+.Phone-PaymentBox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #EDEDED;
+    border: #494B5A 1px solid;
+    border-radius: 40px;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Phone-PaymentCardFilled{
+    background-color: #EDEDED;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+}
+.Phone-PaymentCardFilled2{
+    background-color: #EDEDED;
+    display: flex;
+    width: 100%;
+
+    align-items:center;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+.Phone-PaymentCardFilled a{
+    position: relative;
+    padding-top: 10%;
+}
+.Phone-PaymentCardInputBox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.Phone-PaymentCardInputBox2{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.Phone-PaymentCardInputBox div{
+    color:#494B5A ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    font-size: 1.8vh;
+}
+.Phone-PaymentInput{
+    width: 60%;
+    padding-top: 1%;
+}
+.Phone-PaymentInput2{
+    width: 60%;
+    padding-top: 1%;
+}
+.Phone-CardContainer{
+    display: flex;
+    
+    text-align: center;
+    align-items: center;
+    padding-left: 7%;
+}
+.Phone-PaymentCardInputBox2 div{
+    color:#494B5A ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    font-size: 1.8vh;
+}
+.What-is-this{
+    color:#F44949 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    font-size: 1vh;
+}
+.Phone-BillingAdress{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 10%;
+    border-radius: 30px;
+}
+.Phone-BillingAdress1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 10%;
+    border-radius: 30px;
+}
+
+.Phone-BillingAdressBox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #EDEDED;
+    border: #494B5A 1px solid;
+    border-radius: 30px;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.Phone-Continue{
+    margin-top: 12%;
+    background-color: #F44949;
+    color: #EDEDED;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 3vh;
+    padding: 5%;
+    width: 60%;
+    border-radius: 20px;
+    text-align: center;
+}
+.Phone-continueWidth{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Web-Status{
+    width: 100%;
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+}
+.Web-StatusContinue{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 2vh;
+    background-color: #F44949;
+    color: #FFFF;
+    width: 10%;
+    padding: 1%;
+    text-align: center;
+    position: absolute;
+    right:5%;
+    top: 23%;
+    border-radius: 30px;
+    
+}
+.Web-Payment{
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+}
+.Web-PayContainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 3%;
+}
+.Web-PaymentMethod{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    
+}
+.Web-PaymentMethodTitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 3.5vh;
+    padding-left: 3%;
+}
+.Web-PaymentMethodBox{
+    width: 100%;
+    background-color: #EDEDED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3%;
+    padding-top: 3%;
+    padding-left: 2%;
+    border: #494B5A 1px solid;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    border-radius: 30px;
+}
+.Web-paymentInline{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+    
+}
+.Inline-fonts{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    font-size: 1.5vh;
+    width: 40%;
+}
+.Inline-img{
+    display: flex;
+    justify-content: start;
+   
+
+}
+.Inline-img a{
+    text-align: center;
+}
+  
+.Inline-displace{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.Red-whatIsThis{
+    color: #F44949;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 1.1vh;
+    padding-right: 35%;
+}
+.Web-OrderSummary{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+
+}
+.Web-OrderBox{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    border: #494B5A 1px solid;
+    border-radius: 30px;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+    
+}
+.Web-OrderBoxWidth{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding-left: 5%;
+}
+.Web-OrderBox hr{
+    position: relative;
+    margin-top: 3%;
+    width:70%;
+}
+.Web-OrderBoxTitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 3vh;
+    color:#494B5A;
+}
+.Web-OrderBoxProduct{
+    display: flex;
+    align-items: start;
+    width: 100%;
+    padding-top: 5%;
+}
+.Web-OrderBoxProduct a{
+    width: 30%;
+}
+.Web-OrderBoxProductText{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.Web-OrderBoxProductText-Title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:700;
+    font-size: 2.5vh;
+    color:#707070;
+}
+.Web-OrderBoxProductText-Content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    font-size: 1vh;
+    color:#707070;
+    padding-top: 5%;
+}
+.Web-OrderBox-Price{
+    display: flex;
+    width: 100%;
+    justify-content:space-around ;
+    padding-top: 3%;
+    align-items: center;
+}
+.Web-OrderBox-PriceBlack{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    font-size: 2.5vh;
+    color:#333333;
+}
+.Web-OrderBox-PriceRed{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    font-size: 3vh;
+    color:#F44949;
+}
+.Web-bottomContinue{
+    margin-top: 10%;
+    background-color: #F44949;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 3vh;
+    font-weight: bold;
+    padding: 2%;
+    border-radius: 30px;
+    width: 30%;
+    text-align: center;
+
+
+}
+.Web-CheckoutFooter{
+    background-color: #707070;
+    margin-top: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:2%;
+
+}
+.Web-CheckoutFooterFont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    color: #FFFFFF;
+    font-size: 2vh;
+    
+}
+.Phone-CheckoutFooter{
+    background-color: #707070;
+    margin-top: 15%;
+    display: flex;
+    width: 94%;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+.Phone-CheckoutFooter2{
+    background-color: #707070;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+}
+.Phone-CheckoutFooterFont{
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 1.2vh;
+    padding: 3%;
+
+}
+#payment-tips{
+    display: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    margin-top: 2%;
+    color: #F44949;
+    text-align: center;
+}
+#web-payment-tips{
+    display: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    margin-top: 2%;
+    color: #F44949;
+    text-align: center;
+}
+#web-payment-tips2{
+    display: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    margin-top: 2%;
+    color: #F44949;
+    text-align: center;
+}
+
+/* 手机版*/
+@media screen and (max-width:1058px){
+    .logo{
+        display: none;
+     }
+    hr{
+        display: none;
+    }
+    .Web-CheckoutFooter{
+        display: none;
+    }
+    .Web-Status{
+        display: none;
+    }
+    .Web-StatusContinue{
+        display: none;
+    }
+    .Web-Payment{
+        display: none;
+    }
+    
+}
+
+/* 电脑版*/
+@media screen and (min-width:1058px){
+    .logo{
+        display: block;
+        position: relative;
+        padding-left: 26%;
+        
+        
+     }
+     .header-right{
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    
+    
+    .Phone-Status{
+        display: none;
+    }
+    .Phone-OrderSummary{
+        display: none;
+    }
+    .Phone-Coupon{
+        display: none;
+    }
+    .Phone-Payment{
+        display: none;
+    }
+    .Phone-BillingAdress{
+        display: none;
+    }
+    .Phone-continueWidth{
+        display: none;
+    }
+    .Phone-CheckoutFooter{
+        display: none;
+    }
+}

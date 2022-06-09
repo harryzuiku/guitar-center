@@ -1,0 +1,600 @@
+body{
+    margin: 0%;
+}
+
+hr{
+    margin: 0%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.Header-back{
+    margin-top: 1%;
+    margin-left: 5%;
+}
+.Phone-Status{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.Phone-ChooseDelivery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+}
+.Phone-ChooseDeliveryTitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 2vh;
+    color: #494B5A;
+}
+.Phone-ChooseDeliveryBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EDEDED;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    padding: 3%;
+    border-radius: 40px;
+    border: #494B5A 1px solid;
+}
+.Phone-ChooseDeliveryBox a{
+    text-align: center;
+    padding: 1%;
+}
+.Phone-Address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 10%;
+}
+.Phone-AddressBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EDEDED;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    padding: 5%;
+    border-radius: 40px;
+    border: #494B5A 1px solid;
+}
+.Phone-AddressLine{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+.Web-AddressLine{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+.Phone-AddressCombine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    justify-content: space-between;
+    width: 40%;
+}
+.Phone-AddressCombine2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    justify-content: space-between;
+    width: 40%;
+}
+.Phone-nameFont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    font-size: 1.2vh;
+    color: #494B5A;
+    padding-bottom: 1%;
+    white-space: nowarp;
+}
+.Phone-nameFontZip{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    font-size: 1.2vh;
+    color: #494B5A;
+    padding-bottom: 1%;
+    white-space: nowarp;
+    padding-right: 4%;
+}
+.Phone-nameFont2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    font-size: 1.2vh;
+    color: #494B5A;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    white-space: nowarp;
+}
+.Phone-NameInput{
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+.Web-NameInput{
+    width: 60%;
+    text-align: center;
+    height: auto;
+}
+.Web-NameInput1{
+    width: 60%;
+    text-align: center;
+    margin-left: 12%;
+}
+    
+.Web-NameInput2{
+    width: 95%;
+    text-align: center;
+    height: auto;
+    padding-left: 10%;
+}
+.search-homepage{
+    width: 60%;
+    overflow-x:visible;
+    overflow-y:visible;
+    height: 30px;
+    
+    
+}
+
+.Phone-AddressLine2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    padding-right: 2%;
+}
+.Phone-AddressCombine2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    width: 70%;
+    height: auto;
+}
+.Web-AddressCombine3{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    width: 92%;
+    height: auto;
+    padding-top: 2%;
+}
+.Web-AddressCombine2{
+    display: flex;
+    
+    justify-content: start;
+    align-items: center;
+    width: 70%;
+    height: auto;
+}
+.Web-AddressCombine2Zip{
+    display: flex;
+    
+    justify-content: start;
+    align-items: center;
+    width: 70%;
+    height: auto;
+    padding-right: 11%;
+}
+.search-homepage2{
+    width: 100%;
+    overflow-x:visible;
+    overflow-y:visible;
+    height: 30px;
+    
+}
+.Phone-Contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 10%;
+
+    
+}
+.Phone-ContactTitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 2vh;
+    color: #494B5A;
+}
+.Phone-ContactBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EDEDED;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    padding: 3%;
+    border-radius: 40px;
+    border: #494B5A 1px solid;
+}
+.Phone-continue{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 3vh;
+    color: #FFFF;
+    background-color: #F44949;
+    margin-top: 15%;
+    padding: 5%;
+    width: 60%;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+.Phone-continueBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Phone-continueBox a{
+    text-decoration: none;
+}
+.Web-status{
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+    justify-content: center;
+}
+.Web-statusPics{
+    width: 74%;
+   text-align: center;
+    
+}
+.Web-StatusContinues{
+    background-color: #F44949;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 2vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 30px;
+    text-align: end;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 10%;
+    top: 23%;
+    padding: 1%;
+    
+    
+
+}
+
+.Web-chooseOptions{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.Web-chooseOptionsFonts{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 3.5vh;
+    color:#494B5A ;
+}
+.Web-chooseOptionsBox{
+    background-color: #EDEDED;
+    width: 17%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    border-radius: 40px;
+    border: #707070 solid 1px;
+}
+.Web-chooseOptionsBox a{
+    text-align: center;
+    
+}
+.Web-ShippingWhole{
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+    align-items: center;
+}
+.Web-ShippingPart{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.Web-ShippingPartTitle{
+    margin-bottom: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 4.5vh;
+    color:#494B5A ;
+}
+.Web-ShippingPartTitleWidth{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+}
+.Web-ShippingPartBox{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 3%;
+    background-color: #EDEDED;
+    border-radius: 40px;
+    border: #707070 1px solid;
+
+}
+.Web-ShippingPartBoxSecond{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 3%;
+    background-color: #EDEDED;
+    border-radius: 40px;
+    margin-top: 8%;
+    border: #707070 1px solid;
+
+}
+.Web-nameFont2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    font-size: 1.2vh;
+    color: #494B5A;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+.Web-OrderSummary{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+.Web-OrderBox{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    border: #494B5A 1px solid;
+    border-radius: 30px;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+}
+.Web-OrderBoxWidth{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding-left: 5%;
+}
+.Web-OrderBox hr{
+    position: relative;
+    margin-top: 3%;
+    width:70%;
+}
+.Web-OrderBoxTitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 3vh;
+    color:#494B5A;
+}
+.Web-OrderBoxProduct{
+    display: flex;
+    align-items: start;
+    width: 100%;
+    padding-top: 5%;
+}
+.Web-OrderBoxProduct a{
+    width: 30%;
+}
+.Web-OrderBoxProductText{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.Web-OrderBoxProductText-Title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:700;
+    font-size: 2.5vh;
+    color:#707070;
+}
+.Web-OrderBoxProductText-Content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    font-size: 1vh;
+    color:#707070;
+    padding-top: 5%;
+}
+.Web-OrderBox-Price{
+    display: flex;
+    width: 100%;
+    justify-content:space-around ;
+    padding-top: 3%;
+    align-items: center;
+}
+.Web-OrderBox-PriceBlack{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    font-size: 2.5vh;
+    color:#333333;
+}
+.Web-OrderBox-PriceRed{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    font-size: 3vh;
+    color:#F44949;
+}
+.Web-Sum-Continue{
+    padding: 2%;
+    background-color: #F44949;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 3vh;
+    color:#FFFFFF ;
+    text-align: center;
+    margin-top: 5%;
+    border-radius: 40px;
+
+}
+.Web-CheckoutFooter{
+    background-color: #707070;
+    margin-top: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:2%;
+
+}
+.Web-CheckoutFooterFont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    color: #FFFFFF;
+    font-size: 2vh;
+    
+}
+.Phone-CheckoutFooter{
+    background-color: #707070;
+    margin-top: 15%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
+
+.Phone-CheckoutFooter2{
+    background-color: #707070;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+}
+.Phone-CheckoutFooterFont{
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 1.2vh;
+    padding: 3%;
+    
+
+}
+#buy-warning{
+    display: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    margin-top: 2%;
+    color: #F44949;
+   
+    
+}
+#web-tips2{
+    display: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    margin-top: 2%;
+    color: #F44949;
+    text-align: center;
+}
+#web-tips3{
+    display:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    margin-top: 3%;
+    color: #F44949;
+    text-align: center;
+    font-size: 2vh;
+}
+/* 手机版*/
+@media screen and (max-width:1058px){
+    .logo{
+        display: none;
+     }
+    hr{
+        display: none;
+    }
+    .Web-status{
+        display: none;
+    }
+    .Web-chooseOptions{
+        display: none;
+    }
+    .Web-ShippingWhole{
+        display: none;
+    }
+    .Web-CheckoutFooter{
+        display: none;
+    }
+}
+
+/* 电脑版*/
+@media screen and (min-width:1058px){
+    .logo{
+        display: block;
+        position: relative;
+        padding-left: 26%;
+        
+        
+     }
+    .header-right{
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    .Phone-Status{
+        display: none;
+    }
+    .Phone-ChooseDelivery{
+        display: none;
+    }
+    .Phone-Address{
+        display: none;
+    }
+    .Phone-Contact{
+        display: none;
+    }
+    .Phone-continueBox{
+        display: none;
+    }
+    .Phone-CheckoutFooter{
+        display: none;
+    }
+    
+}

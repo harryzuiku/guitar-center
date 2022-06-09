@@ -1,0 +1,773 @@
+body{
+    margin: 0%;
+}
+
+hr{
+    margin: 0%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.header .back-phone{
+    padding-left: 5%;
+    padding-top: 2%;
+}
+.header .back-web{
+    padding-left: 5%;
+}
+.Phone-productpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+.Phone-productimg {
+    display: flex;
+}
+
+.Phone-productimg a{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center ;
+    padding-top: 5%;
+
+}
+
+.RedPoint{
+    display: flex;
+    width: 40%;
+    justify-self: center;
+    padding-top: 8%;
+    
+    
+}
+
+.RedPoint a{
+    text-align: center;
+    justify-content: center;
+    padding-left: -10%;
+    padding-right: 0%;
+    
+
+}
+
+.Phone-text-detail{
+    background-color:#EDEDED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 3%;
+    border: 1% solid grey;
+    width: 100%;
+    
+}
+
+.Product-name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 2.5vh;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.Product-review{
+    display: flex;
+    padding-top: 3%;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8%;
+
+}
+.product-review-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2vh;
+    white-space: nowarp;
+    width: 100%;
+    padding-left: 5%;
+    
+}
+
+.product-review-star{
+    display: flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    padding-left: 6%;
+    padding-right: -10%;
+    
+}
+
+.Choose-style{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4%;
+    width: 90%;
+    border: 0.001em solid #707070;
+    border-left:none;
+    border-right:none;
+
+}
+.Choose-style a{
+    text-decoration: none;
+}
+
+.style-font1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 2vh;
+}
+.style-font2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #F44949;
+    font-weight: 900;
+    font-size: 2vh;
+}
+.Phone-price{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #F44949;
+    font-size: 4vh;
+    font-weight: 500;
+    padding-top: 8%;
+}
+.Phone-quantity{
+    display: flex;
+    padding-top: 8%;
+    justify-content: space-around;
+}
+.Phone-quantity-text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #494B5A;
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+.Phone-quantity-input{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    
+
+}
+.quantity-input{
+    width: 30%;
+    text-align: center;
+    font-size: 2vh;
+    height: 200%;
+}
+.quantity-input-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%
+}
+.Phone-quantity-input a{
+    text-align:right;
+}
+.Phone-quantity-input .Phone-plus{
+    text-align: left;
+}
+.Phone-addCart{
+    background-color:#F44949 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 4vh;
+    color: #FFFFFF;
+    padding: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-top: 6%;
+    border-radius: 50px;
+    
+}
+.Phone-wishlist{
+    background-color: #FFFFFF;
+    border: #707070 solid 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: 550;
+    font-size: 3vh;
+    color:#494B5A;
+    margin-top: 10%;
+    padding: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 50px;
+}
+.Phone-alertMe{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+.Phone-alertMe a{
+    text-align: center;
+    
+}
+.Phone-alertMe a img{
+    border-radius: 20px;
+    border: #494B5A solid 1px;
+    
+}
+.Phone-descriptionBrand{
+    display: flex;
+    flex-direction: column;
+    padding-top: 4%;
+}
+.Phone-descriptionBrand a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+}
+.Phone-FetureReview{
+    display: flex;
+    padding-top: 10%;
+}
+.Phone-Feture{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.Phone-Feture a{
+    text-align: center;
+}
+
+.Feture-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:#494B5A;
+    font-size: 4vh;
+    padding-bottom: 5%;
+    position: relative;
+    padding-left: 17%;
+}
+.Feture-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1vh;
+    color:#494B5A;
+    font-weight: 300;
+    padding: 4.8%;
+    margin-left: 10%;
+
+}
+.Phone-slash{
+    border: none;
+    width: 5px;
+    background-color: #F44949;
+    height: 90%;
+}
+.Phone-reviewRate{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 4%;
+}
+.Phone-reviewRate a{
+    position: relative;
+    padding-left: 15%;
+}
+.Feture-titleNum{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:#494B5A;
+    font-size: 3.5vh;
+    position: relative;
+    padding-right: 4%;
+
+}
+.click-position{
+    position: relative;
+    padding-left: 30%;
+    padding-top: 3%;
+
+}
+.click-positionFeture{
+    position: relative;
+    padding-left: 23%;
+   
+}
+.Phone-shipProtect{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8%;
+    padding-bottom: 2%;
+    width: 100%;
+}
+.Phone-shipProtect a{
+    padding-left: 15%;
+}
+.Phone-recommand{
+    display: flex;
+    flex-direction: column;
+    padding-top: 8%;
+    width: 100%;
+    padding-bottom: 20%;
+}
+.Phone-recommandText{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 2vh;
+    color: #B12828;
+    text-align: left;
+    padding-left: 4%;
+}
+.Phone-recommandImage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    width: 100%;
+    padding-top: 6%;
+}
+.recommandImageBox{
+    display:flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.recName{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 3vh;
+    color:#494B5A ;
+    padding-top: 3%;
+}
+.recPrice{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 3vh;
+    color: #B12828;
+    padding-top: 3%;
+}
+.Scroll-rec{
+    width: 100%;
+    overflow-x: scroll;
+}
+.Web-banner{
+    background-color: #E6E6E6;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5vh;
+    font-weight: bold;
+    color: #707070;
+    padding-top:1.5%;
+    padding-bottom:1.5%;
+
+}
+.Web-product{
+    display: flex;
+    align-items: center;
+
+
+}
+.Web-productImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+.Web-productImg a{
+    padding-top: 7%;
+    
+}
+.Web-producttext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 10%;
+}
+
+.Web-productInnertext{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Web-productInnertext div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #707070;
+    font-size: 3vh;
+    font-weight: 400;
+    padding-top: 4%;
+}
+.redInnerText{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#F44949 ;
+    font-size: 3vh;
+    font-weight: 400;
+    padding-top: 4%;
+}
+.Web-productReview{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    padding-top: 4%;
+   
+}
+.Web-productReviewText{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #707070;
+    font-size: 3vh;
+    font-weight: 400;
+    white-space: nowrap;
+    padding-left: 3%;
+    
+}
+.Web-productPrice{
+    display: flex;
+    align-items: center ;
+    padding-top: 5%;
+}
+.Web-Price-red{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#F44949;
+    font-size: 6.5vh;
+    font-weight: 500;
+}
+.Web-Price-balck{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#333333;
+    font-size: 4vh;
+    padding-left: 10%;
+    text-decoration: line-through;
+}
+.Web-quantity{
+    margin-top: 5%;
+    padding-top: 1%;
+    width: 20%;
+    border: #494B5A solid 1px;
+    border-radius: 30px;
+    text-align: center;
+
+}
+.Web-quantity img{
+    
+    padding-bottom: 1%;
+}
+.Web-addToCart{
+    margin-top: 7%;
+    background-color: #F44949;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#FFFFFF;
+    font-weight: bold;
+    font-size: 4vh;
+    width: 40%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 30px;
+}
+.Web-productDRFR{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+}
+.Web-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.Web-descriptionTitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#707070;
+    font-weight: bold;
+    font-size: 5.5vh;
+    padding-bottom: 2%;
+}
+.Web-descriptionText{
+    background-color:#E6E6E6 ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    padding-top: 1% ;
+    padding-bottom: 1%;
+    
+}
+.Web-descriptionText div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#707070;
+    font-size: 3vh;
+    width: 80%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.Web-Review{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+.Web-reviewBox{
+    display: flex;
+    background-color:#E6E6E6;
+    width: 100%;
+    padding-top: 2%;
+
+
+}
+.Web-rating{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.Web-ratingBigger img{
+    border-radius: 30px;
+    
+    
+}
+.Web-rating a{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.Web-likedReview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    justify-content: end;
+}
+.Web-likedReviewText{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#707070;
+    font-size: 4vh;
+}
+.Web-likedReviewBoard{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 2%;
+}
+.Web-likedReviewBoardBlack{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#707070;
+    font-size: 2vh;
+    padding: 3%;
+    padding-bottom: 3%;
+    padding-top: 5%;
+}
+.Web-likedReviewBoardRed{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#F44949;
+    font-size: 2.5vh;
+    padding:2% ;
+    position: relative;
+    padding-right: 50%;
+    padding-top: 5%;
+
+}
+.Web-seeAll{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#707070;
+    font-size: 2.5vh;
+    position: relative;
+    padding-top: 1%;
+    padding-left: 37%;
+}
+.Web-feature{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+.Web-featureBox{
+    background-color: #E6E6E6;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+
+}
+.Web-featureBox a{
+    width: 20%;
+}
+.Web-featureBox div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#707070;
+    font-size: 2.7vh;
+    width: 70%;
+}
+.Web-recom{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    width:100%;
+    text-align: center;
+    margin-bottom: 3%;
+    
+}
+.Web-YouMightLike{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#B12828;
+    font-size: 5.5vh;
+    font-weight:bold ;
+}
+.Web-recomTable{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2%;
+}
+.Web-recomTableItem1{
+    padding-right: 13%;
+}
+.Web-recomTableItem2{
+    padding-left: 13%;
+}
+.footerBox{
+    display: flex;
+    background-color:#E6E6E6;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.footFonts{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #333333;
+    font-weight:50;
+    font-size: 1.5em;
+
+}
+.footFonts-list{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #333333;
+    font-weight: bolder;
+    font-size: 1.3em;
+    margin-top: 10%;
+    font-weight: 100;
+}
+
+.footInsideBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto ;
+}
+
+.footInsideBox a{
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.footInsideBox img{
+    margin-top: 13%;
+}
+.img-fluid{
+    width: 80%;
+ }
+ 
+ li{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-decoration: none;
+     color: #333333;
+     margin-left: 20%;
+     font-size: 0.8rem;
+     list-style:none;
+ }
+ 
+ .footer-list{
+    display: inline;
+    margin-top: 10%;
+ }
+/* 手机版*/
+@media screen and (max-width:1058px){
+    .logo{
+        display: none;
+     }
+    .header .back-web{
+        display: none;
+    }
+    .Web-banner{
+        display: none;
+    }
+    .Web-product{
+        display: none;
+    }
+    .Web-productDRFR{
+        display: none;
+    }
+    .footInsideBox{
+        display: grid;
+        grid-template-rows: auto;
+        text-align: center;
+        
+     }
+    .footerBox{
+        display: grid;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        background-color:#E6E6E6;
+        position: relative;
+        margin-top: 13%;
+    
+    }
+    
+    .footInsideBox img{
+        display: none;
+    }
+    
+    .footInsideBox li{
+        display: none;
+    }
+
+}
+
+/* 电脑版*/
+@media screen and (min-width:1058px){
+    .logo{
+        display: block;
+        position: relative;
+        padding-left: 26%;
+        
+        
+     }
+    .header-right{
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    .header .back-phone{
+        display: none;
+    }
+
+    .Phone-productpage{
+        display: none;
+    }
+    .Phone-text-detail{
+        display: none;
+    }
+
+
+
+}

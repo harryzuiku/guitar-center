@@ -1,0 +1,556 @@
+body{
+    margin: 0%;
+}
+
+hr{
+    margin: 0%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Phone-intro{
+    background-color: #E6E6E6;
+    display: grid;
+    grid-template-rows: 70% 30%;
+    
+}
+.intro-tophalf{
+    display: flex;
+    padding: 8% 0 ;
+    justify-content: space-between;
+}
+
+.overflow{
+    width: 100%;
+    overflow-x:scroll;
+}
+
+.intro-bottomhalf{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 100%;
+    
+
+    
+}
+
+.intro-bottomhalf a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #333333;
+    font-size: 1em;
+    text-align: center;
+    white-space: nowrap;
+    padding: 0% 5%;
+}
+
+.Intro-font{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #494B5A;
+    font-size: 2.5em;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+.Second-font{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #F44949;
+    font-size: 1em;
+    text-decoration: none;
+    position: absolute;
+    padding-left: 59%;
+    padding-top: 9%;
+    white-space: nowrap;
+    
+}
+.Web-intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#E6E6E6 ;
+}
+.Intro-font-web{
+    color:#707070 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 10vh;
+}
+
+.Search-content{
+    text-align: center;
+    padding: 3% 0;
+    width: 25%;
+    padding-right: 6%;
+    
+}
+
+.search-homepage{
+    
+    width: 100%;
+    height: 2.2rem; 
+   
+    font-size: 1rem
+}
+
+.Phone-productList{
+    background-color: #E6E6E6;
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    
+    width: 100%;
+    border: #333333 0.5% solid;
+    position: relative;
+    padding-top: 5%;
+    
+    
+
+}
+
+.product-box{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: max-content;
+    margin: 3% 0;
+    border: #494B5A 1px solid;
+    justify-content: space-around;
+}
+
+.product-box a{
+    width: 100%;
+    height: 100%;
+    padding: 5% 0;
+    text-align: center;
+}
+.product-box a img{
+    width: 100%;
+    height: 100%;
+    padding: 7% 0;
+}
+.product-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.red-sign{
+    background-color: #F44949;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    width: 70%;
+    border: #333333 1%  solid;
+    margin-bottom: 10%;
+    padding: 5% 0;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left:0;
+    padding-bottom: 10%;
+   
+}
+
+.Web-star{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding-left:0;
+    padding-bottom: 10%;
+    justify-content: center;
+   
+}
+
+.title-detail{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    padding: 5% 0;
+
+}
+
+.view-number{
+    padding-left: 10%;
+}
+
+.phone-listprice{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.7em;
+    color: #F44949 ;
+}
+
+
+.Web-productList{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.productlist-bar{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30%;
+}
+
+.bar-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333333;
+    font-weight: bold;
+    font-size: 2em;
+    padding-bottom: 5%;
+    padding-left: 10%;
+}
+
+.bar-list{
+    background-color: #E6E6E6;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-content: center;
+    
+}
+.bar-list a{
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    
+    
+}
+.bar-list a li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333333;
+    padding: 3% 0;
+    padding-left: 10%;
+    font-size: 1em;
+    
+    
+}
+.bar-list div{
+    text-align: center;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.Brand-search{
+    width: 70%;
+    height: 5%;
+}
+.search-brand{
+    width: 100%;
+    height: 2.5em;
+    border-radius: 20px;
+    
+}
+
+
+.Web-productDisplay{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 33% 33% 33%;
+    padding: 6% 5%;
+}
+
+.Web-productbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 3%;
+
+}
+
+.Web-productbox a{
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    
+}
+.Web-redbox{
+    background-color: #F44949;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    text-align: center;
+    border-radius: 30px;
+    height: 20%;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    font-size: 2vh;
+    padding: 2% 4%;
+    
+
+}
+
+.Web-productText{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: #333333;
+    font-weight: 700;
+    text-align: center;
+    padding-top:7%;
+    padding-bottom:4%;
+}
+
+.Web-priceForNoDis{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    color: #F44949;
+    padding-bottom:13%;
+
+}
+.Web-price{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    color: #F44949;
+    padding-bottom: 5%;
+
+}
+
+
+.Web-price div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.5em;
+    color: #333333;
+    position: relative;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.Web-redbox-special{
+    background-color: #707070;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    height: 20%;
+    font-weight: 600;
+    font-size: 2vh;
+    padding: 2% 4%;
+}
+
+.Phone-pageNumber{
+    background-color:#E6E6E6 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.direct-box{
+    padding: 7% 0;
+    display: flex;
+    align-items: center;
+    white-space: nowarp;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.direct-box a{
+    padding-left: 2%;
+}
+
+.direct-search{
+    
+    width: 40%;
+    height: 2.2rem; 
+    font-size: 1rem;
+    border-radius: 30px;
+    padding-left: 5%;
+}
+
+.footerBox{
+    display: flex;
+    background-color:#E6E6E6;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.footFonts{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #333333;
+    font-weight:50;
+    font-size: 1.3em;
+
+}
+.footFonts-list{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #333333;
+    font-weight: bolder;
+    font-size: 1.3em;
+    margin-top: 10%;
+    font-weight: 100;
+}
+
+.footInsideBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto ;
+}
+
+.footInsideBox a{
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.footInsideBox img{
+    margin-top: 13%;
+}
+.img-fluid{
+    width: 80%;
+ }
+ 
+ li{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-decoration: none;
+     color: #333333;
+     margin-left: 20%;
+     font-size: 0.8rem;
+     list-style:none;
+ }
+ 
+ .footer-list{
+    display: inline;
+    margin-top: 10%;
+ }
+ 
+ .Web-direct-search{
+     background-color: #E6E6E6;
+     border-radius: 20px;
+     width: 40%;
+     height: 2rem;
+     
+
+ }
+ 
+ .Web-dir{
+     display: flex;
+     align-items: center;
+
+ }
+.Web-dir-contain{
+    position: relative;
+    padding-left: 70%;
+    padding-bottom: 10%;
+
+}
+
+.Page1{
+    padding-right: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #707070;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.ToThePage{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #707070;
+    font-size: 1rem;
+
+}
+
+
+
+@media screen and (max-width:1058px){
+    .logo{
+        display: none;
+     }
+
+    .Web-intro{
+        display: none;
+    }
+
+    .Web-productList{
+        display: none;
+    }
+    .Web-dir-contain{
+        display: none;
+    }
+    .footInsideBox{
+        display: grid;
+        grid-template-rows: auto;
+        text-align: center;
+        
+     }
+    .footerBox{
+        display: grid;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        background-color:#E6E6E6;
+        position: relative;
+        margin-top: 0%;
+        border: #727272 solid 0.05px;
+    
+    }
+    
+    .footInsideBox img{
+        display: none;
+    }
+    
+    .footInsideBox li{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:1058px){
+    .logo{
+        display: block;
+        position: relative;
+        padding-left: 26%;
+        
+        
+     }
+    .header-right{
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+
+    .Phone-intro{
+        display: none;
+    }
+
+    .Phone-productList{
+        display: none;
+    }
+
+    .Phone-pageNumber{
+        display: none;
+    }
+
+}
