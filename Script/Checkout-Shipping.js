@@ -29,7 +29,7 @@ document.getElementById('buy-btn').addEventListener('click', function()
         return false
     }
 
-    document.location.href = 'checkout-payment.html'
+    document.location.href = 'Checkout-Payment.html'
 }, false)
 
 
